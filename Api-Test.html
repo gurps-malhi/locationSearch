@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tech Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+  
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <h2>Miles to London</h2>
+              <form id="mile-to">
+              <div class="form-group">
+                <label for="no_mile"><strong>Select the Number of miles from London:</strong></label>
+                <select class="form-control" aria-label="select the number of miles from london" name="Miles" id="no_mile">
+                  </select>
+              </div>     
+            </form>
+              <button id="search_miles" aria-label="Start the Search" class="btn btn-primary">Search</button>        
+          </div>
+         <div id="user-selection">
+          <h4 class="loading">Loading Results...</h4>
+         </div>
+      </div>
+  
+    <script src="js/app.js"></script>
+</body>
+</html>
